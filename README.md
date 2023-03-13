@@ -1,7 +1,7 @@
 # Phigros-Fanmade-Website
 
-A Phigros fanmade website that made with pure html and css.
+This is a website that host thing that related to Phigros fanmade.
 
-It's not gonna be good website so.
+(This is my first serious project if it bad please forgive me)
 
 [The website](https://mishiranuuuuu.github.io/Phigros-Fanmade-Website/)
