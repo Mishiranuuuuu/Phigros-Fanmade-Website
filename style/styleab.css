@@ -13,3 +13,11 @@ a{
     text-decoration: underline;
     color: white;
 }
+h3{
+    color: white;
+    margin-left: 20px;
+    text-decoration: underline;
+}
+.play{
+    margin-left: 30px;
+}

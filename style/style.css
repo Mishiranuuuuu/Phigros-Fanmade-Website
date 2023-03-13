@@ -53,6 +53,14 @@ ul li a:hover{
     text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px, 0 0 60px #000, 0 0 70px #000, 0 0 80px #000, 0 0 90px #000, 0 0 100px #000;
     padding-top: 100px;
 }
+.phi{
+    text-decoration: none;
+    position: relative;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px, 0 0 60px #000, 0 0 70px #000, 0 0 80px #000, 0 0 90px #000, 0 0 100px #000;
+}
 .header img{
     position: absolute;
     aspect-ratio: 16/9;
