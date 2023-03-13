@@ -12,12 +12,18 @@ body{
     margin: 0rem;
 }
 .header ul{
+    background: #000;
     padding-right: 15px;
     text-align: right;
 }
+.header h1{
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px, 0 0 60px #000, 0 0 70px #000, 0 0 80px #000, 0 0 90px #000, 0 0 100px #000;
+}
 .header p{
     position: relative;
-    font-size: 24px;
+    font-size: 30px;
     color: white;
     text-align: center;
     text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px, 0 0 60px #000, 0 0 70px #000, 0 0 80px #000, 0 0 90px #000, 0 0 100px #000;
@@ -44,4 +50,18 @@ body{
     z-index: -1;
     height: 100%;
     width: 100%;
+}
+
+@media only screen and (max-width:700px){
+    .header img{
+        width: 100%;
+        height: 50vh;
+    }
+    .header p{
+        font-size: 24px;
+    }
+    .header a{
+        font-size: 15px;
+        padding-top: 10px;
+    }
 }
