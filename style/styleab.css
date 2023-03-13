@@ -1,0 +1,15 @@
+p{
+    color: white;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+h1{
+    font-size: 27px;
+    color: white;
+    margin-left: 20px;
+}
+a{
+    text-decoration: underline;
+    color: white;
+}

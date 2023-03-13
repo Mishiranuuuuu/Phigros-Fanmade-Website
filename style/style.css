@@ -11,10 +11,34 @@ body{
     font-family: 'Saira', sans-serif;
     margin: 0rem;
 }
-.header ul{
+ul li{
+    display: inline-block;
+    padding: 10px;
+}
+ul li a{
+    text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px, 0 0 60px #000, 0 0 70px #000, 0 0 80px #000, 0 0 90px #000, 0 0 100px #000;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    transition: 0.5s;
+    font-size: 15px;
+}
+ul li a:hover{
+    margin: 5px;
+    color: #feff80;
+    text-decoration: underline;
+}
+.navbar{
+    
+    z-index: 2;
+    width: 100%;
     background: #000;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+}
+.header ul{
     padding-right: 15px;
-    text-align: right;
 }
 .header h1{
     text-align: center;
@@ -27,29 +51,19 @@ body{
     color: white;
     text-align: center;
     text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px, 0 0 60px #000, 0 0 70px #000, 0 0 80px #000, 0 0 90px #000, 0 0 100px #000;
-    padding-top: 75px;
-}
-.header ul li{
-    display: inline-block;
-    padding: 10px;
-}
-.header a{
-    text-shadow: 0 0 10px #000, 0 0 20px #000, 0 0 30px #000, 0 0 40px #000, 0 0 50px, 0 0 60px #000, 0 0 70px #000, 0 0 80px #000, 0 0 90px #000, 0 0 100px #000;
-    text-decoration: none;
-    color: white;
-    position: relative;
-    transition: 0.5s;
-    font-size: 15px;
-}
-.header a:hover{
-    color: #f7fa04;
-    text-decoration: underline;
+    padding-top: 100px;
 }
 .header img{
     position: absolute;
+    aspect-ratio: 16/9;
     z-index: -1;
     height: 100%;
     width: 100%;
+}
+h2{
+    color: white;
+    font: 20px;
+    text-align: center;
 }
 
 @media only screen and (max-width:700px){
