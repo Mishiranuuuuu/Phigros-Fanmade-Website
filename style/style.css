@@ -63,9 +63,6 @@ ul li a:hover{
 }
 .header img{
     overflow: hidden;
-    position: absolute;
-    aspect-ratio: 16/9;
-    z-index: -1;
     height: 50%;
     width: 100%;
 }
