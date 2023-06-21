@@ -21,6 +21,6 @@ h3{
 .play{
     margin-left: 30px;
 }
-a:hover{
+.play:hover{
     color: #feff80;
 }
