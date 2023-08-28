@@ -1,4 +1,4 @@
-/*Aniti inspec element*/
+/*Aniti inspect element*/
 
 document.addEventListener('contextmenu', e => e.preventDefault());
 
