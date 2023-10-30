@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    transition: 0.5s;
+    user-selete: none;
 }
 html{
     height: 100%;
